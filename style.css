@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+#winner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.directions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.scores {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.finalScore {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    align-items: center;
+}

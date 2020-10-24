@@ -2,12 +2,29 @@
 <html>
     <head>
         <title>Rock-Paper-Scissors Game</title>
-        <script src="RPS.js"></script>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>
-            Welcome to the Rock paper Scissors game! Inspect the page and type game() to play!
-        </h1>
+        <h1 class = 'option'>The Rock paper Scissors Game</h1>
+        <p id = "winner"></p>
+        <h2 class = 'directions'>Choose an option</h2>
+        <div class = "options">
+            <button class = "rock" type ="button">rock</button>
+            <button class = "paper" type = "button">paper</button>
+            <button class = "scissors" type ="button">scissors</button>
+        </div>
+        <div class = 'scores'>
+            <div class = 'playerScore'>
+                <h2>Player Score</h2>
+                <p id = plScore></p>
+            </div>
+            <div class = 'computerScore'>
+                <h2>Commputer Score</h2>
+                <p id = coScore></p>
+            </div>
+        </div>
+        <h1 class = finalScore></h1>
+        <script src="RPS.js"></script>
     </body>
 </html>
 </body>
